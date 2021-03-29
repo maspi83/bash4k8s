@@ -38,7 +38,7 @@ curl -fsSL https://raw.githubusercontent.com/maspi83/bash4k8s/master/src_files/.
 ```
 reload_shell
 
-the shell automatically now provides you delete on git repository name and branch, dont need the weird symbols
+the shell automatically now provides you delete on gi branch name, dont need the weird symbols, simplicity
 
 use kubeon/kubeoff to enable / disable PS1 terminal to see current active ctx/ns
 ```

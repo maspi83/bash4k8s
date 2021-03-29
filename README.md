@@ -2,7 +2,7 @@
 An simple and fun shell for bash Linux/Mac
 
 # First words
-All praise go to these people, I did only minimal work of putting the two magics together
+All praise go to these people, I did only minimal work of putting the two magics together  
 https://github.com/fabriziocucci/git-bash-for-mac  
 https://github.com/jonmosco/kube-ps1  
 https://github.com/ahmetb/kubectx  

@@ -1,5 +1,5 @@
 # bash4k8s
-An simple and fun shell for bash Linux/Mac
+An simple and fun shell for bash Mac
 
 # First words
 All praise go to these people, I did only minimal work of putting the two magics together  

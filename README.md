@@ -20,12 +20,13 @@ I've just shared the my files but will do some install script later on
 get bash, kubectl..
 
 cd $HOME
-curl -o ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
-curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
-curl -o ~/.kubectx.bash https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubectx.bash
-curl -o ~/.kubens.bash https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubens.bash
+curl -o ~/.git-completion.bash1 -fsSL https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+curl -o ~/.git-prompt.sh -fsSL https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+curl -o ~/.kubectx.bash -fsSL https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubectx.bash
+curl -o ~/.kubens.bash -fsSL https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubens.bash
+curl -o ~/.kube_ps1.sh -fsSL https://raw.githubusercontent.com/jonmosco/kube-ps1/master/kube-ps1.sh
 kubectl completion bash > .kubectl.bash
-curl -o .mod-bash-mac.sh https://raw.githubusercontent.com/maspi83/bash4k8s/master/src_files/.mod-bash-mac.sh
+curl -o .mod-bash-mac.sh -fsSL https://raw.githubusercontent.com/maspi83/bash4k8s/master/src_files/.mod-bash-mac.sh
 
 This will append new lines into your bash_profile/bashrc
 curl -fsSL https://raw.githubusercontent.com/maspi83/bash4k8s/master/src_files/.bash_profile >> .bash_profile

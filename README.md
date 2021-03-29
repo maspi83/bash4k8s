@@ -25,5 +25,6 @@ curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contri
 curl -o ~/.kubectx.bash https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubectx.bash
 curl -o ~/.kubens.bash https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubens.bash
 kubectl completion bash > .kubectl.bash
+curl -o .mod-bash-mac.sh https://raw.githubusercontent.com/maspi83/bash4k8s/master/src_files/.mod-bash-mac.sh
 
 ```
